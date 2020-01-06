@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
         Student PennyLane = new Student();
 
         PennyLane.studentNumber = 33;
@@ -15,6 +18,8 @@ public class Main {
         JudeBrooker.favSubject = "Computer Science";
         System.out.println(JudeBrooker.dateOfBirth);
 
-        
+
+        Student[] myStudents = new Student[2];
+
     }
 }
